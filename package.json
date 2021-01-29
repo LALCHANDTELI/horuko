@@ -5,13 +5,11 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "npm app.js",
-        "dev": "nodemon app.js"
+        "start": "npm app.js"
     },
     "author": "lal chand teli",
     "license": "ISC",
     "dependencies": {
-        "express": "^4.17.1",
-        "mongodb": "^3.6.3"
+        "express": "^4.17.1"
     }
 }
