@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const mongo = require('mongodb')
 const mongoClient = mongo.MongoClient;
-const mongoUrl = 'mongodb://localhost:27017';
+const mongoUrl = 'mongodb+srv://demo:@demo123@cluster0.gys8x.mongodb.net/demo@admin?retryWrites=true&w=majority';
 let db;
 const port = process.env.PORT;
 
