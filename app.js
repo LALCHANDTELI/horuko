@@ -4,7 +4,7 @@ const mongo = require('mongodb')
 const mongoClient = mongo.MongoClient;
 const mongoUrl = 'mongodb://localhost:27017';
 let db;
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 mongoClient.connect(mongoUrl, { useUnifiedTopology: true }, (error, connection) => {
     if (error) throw error;
